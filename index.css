@@ -1,0 +1,24 @@
+.cont{
+    display: flex;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin: 10px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:320px) and (max-width:480px){
+    .cont{
+        display: block;
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: brown;
+    }
+}
